@@ -10,4 +10,13 @@
 
 @interface ShareModel : NSObject
 
+@property (nonatomic,copy) NSString *shareId;
+
+@property (nonatomic,copy) NSString *imageURL;
+
+@property (nonatomic,copy) NSString *title;
+
+//链接
+@property (nonatomic,copy) NSString *shareUrl;
+
 @end

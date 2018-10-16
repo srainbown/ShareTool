@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0624DCC91EF5D4DB3C5361FC /* libPods-ShareView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 739DF57449CBD5E428FDBC45 /* libPods-ShareView.a */; };
 		3E172FDA2175ABA000AB8BB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E172FD92175ABA000AB8BB1 /* AppDelegate.m */; };
-		3E172FDD2175ABA000AB8BB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E172FDC2175ABA000AB8BB1 /* ViewController.m */; };
-		3E172FE02175ABA000AB8BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E172FDE2175ABA000AB8BB1 /* Main.storyboard */; };
 		3E172FE22175ABA200AB8BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E172FE12175ABA200AB8BB1 /* Assets.xcassets */; };
 		3E172FE52175ABA200AB8BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E172FE32175ABA200AB8BB1 /* LaunchScreen.storyboard */; };
 		3E172FE82175ABA200AB8BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E172FE72175ABA200AB8BB1 /* main.m */; };
 		3E172FF22175ABA200AB8BB1 /* ShareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E172FF12175ABA200AB8BB1 /* ShareViewTests.m */; };
 		3E172FFD2175ABA200AB8BB1 /* ShareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E172FFC2175ABA200AB8BB1 /* ShareViewUITests.m */; };
+		3E17300E2175AC1700AB8BB1 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E17300D2175AC1700AB8BB1 /* ShareViewController.m */; };
+		3E1730112175AC4700AB8BB1 /* ShareManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1730102175AC4700AB8BB1 /* ShareManage.m */; };
+		3E1730152175B07100AB8BB1 /* ShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1730142175B07100AB8BB1 /* ShareModel.m */; };
+		3E1730192175B61300AB8BB1 /* ActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1730182175B61300AB8BB1 /* ActionSheetView.m */; };
+		3E17301C2175B6B000AB8BB1 /* ActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E17301B2175B6B000AB8BB1 /* ActionButton.m */; };
+		3E17301F2175B82500AB8BB1 /* VerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E17301E2175B82500AB8BB1 /* VerButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		189D47CD27E90984D642384F /* Pods-ShareView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareView/Pods-ShareView.release.xcconfig"; sourceTree = "<group>"; };
 		3E172FD52175ABA000AB8BB1 /* ShareView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E172FD82175ABA000AB8BB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E172FD92175ABA000AB8BB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E172FDB2175ABA000AB8BB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E172FDC2175ABA000AB8BB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3E172FDF2175ABA000AB8BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E172FE12175ABA200AB8BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E172FE42175ABA200AB8BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E172FE62175ABA200AB8BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +54,20 @@
 		3E172FF82175ABA200AB8BB1 /* ShareViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E172FFC2175ABA200AB8BB1 /* ShareViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewUITests.m; sourceTree = "<group>"; };
 		3E172FFE2175ABA200AB8BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E17300C2175AC1700AB8BB1 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		3E17300D2175AC1700AB8BB1 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		3E17300F2175AC4700AB8BB1 /* ShareManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareManage.h; sourceTree = "<group>"; };
+		3E1730102175AC4700AB8BB1 /* ShareManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareManage.m; sourceTree = "<group>"; };
+		3E1730132175B07100AB8BB1 /* ShareModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareModel.h; sourceTree = "<group>"; };
+		3E1730142175B07100AB8BB1 /* ShareModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareModel.m; sourceTree = "<group>"; };
+		3E1730172175B61300AB8BB1 /* ActionSheetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetView.h; sourceTree = "<group>"; };
+		3E1730182175B61300AB8BB1 /* ActionSheetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetView.m; sourceTree = "<group>"; };
+		3E17301A2175B6B000AB8BB1 /* ActionButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionButton.h; sourceTree = "<group>"; };
+		3E17301B2175B6B000AB8BB1 /* ActionButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionButton.m; sourceTree = "<group>"; };
+		3E17301D2175B82500AB8BB1 /* VerButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerButton.h; sourceTree = "<group>"; };
+		3E17301E2175B82500AB8BB1 /* VerButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerButton.m; sourceTree = "<group>"; };
+		5F06335C3270DD88183FF281 /* Pods-ShareView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareView/Pods-ShareView.debug.xcconfig"; sourceTree = "<group>"; };
+		739DF57449CBD5E428FDBC45 /* libPods-ShareView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0624DCC91EF5D4DB3C5361FC /* libPods-ShareView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0106A1410C13A245BC355235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F06335C3270DD88183FF281 /* Pods-ShareView.debug.xcconfig */,
+				189D47CD27E90984D642384F /* Pods-ShareView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2221F7CB07316960BADA0120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				739DF57449CBD5E428FDBC45 /* libPods-ShareView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3E172FCC2175ABA000AB8BB1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +120,8 @@
 				3E172FF02175ABA200AB8BB1 /* ShareViewTests */,
 				3E172FFB2175ABA200AB8BB1 /* ShareViewUITests */,
 				3E172FD62175ABA000AB8BB1 /* Products */,
+				0106A1410C13A245BC355235 /* Pods */,
+				2221F7CB07316960BADA0120 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +138,12 @@
 		3E172FD72175ABA000AB8BB1 /* ShareView */ = {
 			isa = PBXGroup;
 			children = (
+				3E1730162175B5EE00AB8BB1 /* View */,
+				3E1730122175B05F00AB8BB1 /* Model */,
+				3E17300B2175ABFF00AB8BB1 /* ShareTool */,
+				3E17300A2175ABF200AB8BB1 /* Controller */,
 				3E172FD82175ABA000AB8BB1 /* AppDelegate.h */,
 				3E172FD92175ABA000AB8BB1 /* AppDelegate.m */,
-				3E172FDB2175ABA000AB8BB1 /* ViewController.h */,
-				3E172FDC2175ABA000AB8BB1 /* ViewController.m */,
-				3E172FDE2175ABA000AB8BB1 /* Main.storyboard */,
 				3E172FE12175ABA200AB8BB1 /* Assets.xcassets */,
 				3E172FE32175ABA200AB8BB1 /* LaunchScreen.storyboard */,
 				3E172FE62175ABA200AB8BB1 /* Info.plist */,
@@ -132,6 +170,46 @@
 			path = ShareViewUITests;
 			sourceTree = "<group>";
 		};
+		3E17300A2175ABF200AB8BB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E17300C2175AC1700AB8BB1 /* ShareViewController.h */,
+				3E17300D2175AC1700AB8BB1 /* ShareViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3E17300B2175ABFF00AB8BB1 /* ShareTool */ = {
+			isa = PBXGroup;
+			children = (
+				3E17300F2175AC4700AB8BB1 /* ShareManage.h */,
+				3E1730102175AC4700AB8BB1 /* ShareManage.m */,
+			);
+			path = ShareTool;
+			sourceTree = "<group>";
+		};
+		3E1730122175B05F00AB8BB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E1730132175B07100AB8BB1 /* ShareModel.h */,
+				3E1730142175B07100AB8BB1 /* ShareModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E1730162175B5EE00AB8BB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E1730172175B61300AB8BB1 /* ActionSheetView.h */,
+				3E1730182175B61300AB8BB1 /* ActionSheetView.m */,
+				3E17301A2175B6B000AB8BB1 /* ActionButton.h */,
+				3E17301B2175B6B000AB8BB1 /* ActionButton.m */,
+				3E17301D2175B82500AB8BB1 /* VerButton.h */,
+				3E17301E2175B82500AB8BB1 /* VerButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E1730012175ABA200AB8BB1 /* Build configuration list for PBXNativeTarget "ShareView" */;
 			buildPhases = (
+				28A53BA2EBAD6A740B8E194D /* [CP] Check Pods Manifest.lock */,
 				3E172FD12175ABA000AB8BB1 /* Sources */,
 				3E172FD22175ABA000AB8BB1 /* Frameworks */,
 				3E172FD32175ABA000AB8BB1 /* Resources */,
+				3DCF7CA1A5DCB0367E853DBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +317,6 @@
 			files = (
 				3E172FE52175ABA200AB8BB1 /* LaunchScreen.storyboard in Resources */,
 				3E172FE22175ABA200AB8BB1 /* Assets.xcassets in Resources */,
-				3E172FE02175ABA000AB8BB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +336,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28A53BA2EBAD6A740B8E194D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DCF7CA1A5DCB0367E853DBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShareView/Pods-ShareView-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareView/Pods-ShareView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E172FD12175ABA000AB8BB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E172FDD2175ABA000AB8BB1 /* ViewController.m in Sources */,
+				3E1730112175AC4700AB8BB1 /* ShareManage.m in Sources */,
 				3E172FE82175ABA200AB8BB1 /* main.m in Sources */,
+				3E17300E2175AC1700AB8BB1 /* ShareViewController.m in Sources */,
+				3E17301C2175B6B000AB8BB1 /* ActionButton.m in Sources */,
+				3E1730152175B07100AB8BB1 /* ShareModel.m in Sources */,
+				3E1730192175B61300AB8BB1 /* ActionSheetView.m in Sources */,
 				3E172FDA2175ABA000AB8BB1 /* AppDelegate.m in Sources */,
+				3E17301F2175B82500AB8BB1 /* VerButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +425,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3E172FDE2175ABA000AB8BB1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E172FDF2175ABA000AB8BB1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3E172FE32175ABA200AB8BB1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,6 +548,7 @@
 		};
 		3E1730022175ABA200AB8BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F06335C3270DD88183FF281 /* Pods-ShareView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +565,7 @@
 		};
 		3E1730032175ABA200AB8BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 189D47CD27E90984D642384F /* Pods-ShareView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -10,4 +10,6 @@
 
 @interface VerButton : UIButton
 
+@property (nonatomic,strong) UIView *lineView;
+
 @end
