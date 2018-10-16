@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ShareViewController.h
 //  ShareView
 //
 //  Created by 紫川秀 on 2018/10/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ShareViewController : UIViewController
 
 @end
-
